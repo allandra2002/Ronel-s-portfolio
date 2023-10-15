@@ -1,0 +1,39 @@
+/* styles.css */
+
+/* Style du menu de navigation */
+.navbar {
+    background-color: #28a745; /* Vert */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Style du titre du portfolio */
+.jumbotron {
+    background-color: #28a745; /* Vert */
+    text-align: center;
+    color: #fff; /* Texte blanc sur fond vert */
+}
+
+/* Style des cartes de projet */
+.card {
+    margin-bottom: 20px;
+    border: 2px solid #28a745; /* Bordure verte */
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #28a745; /* Vert */
+    color: #fff;
+    text-align: center;
+}
+
+/* Style de la photo de profil */
+.profile-image {
+    max-width: 150px; /* Ajustez la largeur maximale selon vos préférences */
+    height: auto; /* La hauteur est ajustée automatiquement pour conserver les proportions */
+    display: block; /* Pour centrer l'image horizontalement dans son conteneur */
+    margin: 0 auto; /* Pour centrer l'image horizontalement dans son conteneur */
+    border-radius: 50%; /* Pour une image de profil arrondie */
+}
